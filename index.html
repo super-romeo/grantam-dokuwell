@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For NGOs and foundations in Armenia on grants: every expense against its grant budget line, spending visible and grant reports from the records.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Grant Ledger Armenia</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Grant Ledger Armenia</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Every grant on its own budget — and its report from the same records</h1>
-    <p class="sub">For NGOs and foundations with one to ten grants a year: expenses by grant and budget line, documents attached, state grant reports on the Ministry of Finance forms, donor financial reports and the annual report in one place.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Service in preparation · No payment is accepted on this page</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For NGOs and foundations with one to ten grants</p>
+      <h1 class="rise" style="--i:1">Every grant on its own budget&nbsp;<span class="soft">— and its report from the same records</span></h1>
+      <p class="rise" style="--i:2">For NGOs and foundations with one to ten grants a year: expenses by grant and budget line, documents attached, state grant reports on the Ministry of Finance forms, donor financial reports and the annual report in one place.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Service in preparation · No payment is accepted on this page</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" fill="#0a1524" font-weight="600">grant</text><line x1="80" y1="214" x2="1120" y2="214" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="48" height="48" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><text x="200" y="296" font-size="32" fill="#0a1524" font-weight="600">budget</text><rect x="130" y="360" width="48" height="48" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="200" y="372" width="300" height="24" fill="#dde2ea" rx="12" /><rect x="130" y="460" width="48" height="48" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="200" y="472" width="220" height="24" fill="#b9c3d2" rx="12" /><rect x="690" y="260" width="380" height="410" fill="#dfe8f7" rx="20" /><text x="720" y="320" font-size="32" fill="#0a1524" font-weight="600">report</text><text x="720" y="378" font-size="30" fill="#566174">records</text><rect x="730" y="470" width="50" height="150" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="808" y="530" width="50" height="90" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="886" y="420" width="50" height="200" fill="#12397a" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="964" y="500" width="50" height="120" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>NGOs and foundations</dd></div>
+      <div><dt>Does</dt><dd>Report from the same records</dd></div>
+      <div><dt>How</dt><dd>Expenses by grant</dd></div>
+      <div><dt>Service</dt><dd>In preparation</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Budget by grant</b><span>Each grant with its own budget lines and dates.</span><br><a class="btn" href="price.html" data-ev="feature_budget">I need this</a></div>
-      <div class="card"><b>Expenses and documents</b><span>Every expense against a line, with invoice and payment attached.</span><br><a class="btn" href="price.html" data-ev="feature_expenses">I need this</a></div>
-      <div class="card"><b>State grant reports</b><span>Interim and final reports on the 2021 Ministry of Finance forms.</span><br><a class="btn" href="price.html" data-ev="feature_state">I need this</a></div>
-      <div class="card"><b>Donor reports</b><span>Financial report by the donor's budget, ready for the narrative part.</span><br><a class="btn" href="price.html" data-ev="feature_donor">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="126" font-size="32" fill="#0a1524" font-weight="600">Budget by grant</text><line x1="130" y1="480" x2="680" y2="480" stroke="#dde2ea" stroke-width="4" /><rect x="160" y="360" width="64" height="120" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="280" y="280" width="64" height="200" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="400" y="320" width="64" height="160" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="520" y="240" width="64" height="240" fill="#12397a" rx="8" stroke="#dde2ea" stroke-width="2" /></svg></div>
+        <h3>Budget by grant</h3><p>Each grant with its own budget lines and dates.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_budget">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="126" font-size="32" fill="#0a1524" font-weight="600">Expenses and documents</text><rect x="120" y="190" width="52" height="52" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="196" y="204" width="360" height="24" fill="#dde2ea" rx="12" /><polyline points="132,216 144,230 164,204" fill="none" stroke="#12397a" stroke-width="6" /><rect x="120" y="270" width="52" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="196" y="284" width="310" height="24" fill="#b9c3d2" rx="12" /><polyline points="132,296 144,310 164,284" fill="none" stroke="#12397a" stroke-width="6" /><rect x="120" y="350" width="52" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="196" y="364" width="260" height="24" fill="#dde2ea" rx="12" /><rect x="120" y="430" width="52" height="52" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="196" y="444" width="210" height="24" fill="#b9c3d2" rx="12" /></svg></div>
+        <h3>Expenses and documents</h3><p>Every expense against a line, with invoice and payment attached.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_expenses">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="126" font-size="32" fill="#0a1524" font-weight="600">State grant reports</text><rect x="130" y="200" width="420" height="28" fill="#dde2ea" rx="8" /><rect x="130" y="270" width="300" height="28" fill="#b9c3d2" rx="8" /><rect x="130" y="340" width="460" height="28" fill="#dde2ea" rx="8" /><rect x="130" y="410" width="240" height="28" fill="#b9c3d2" rx="8" /><circle cx="600" cy="230" r="46" fill="#dfe8f7" /><polyline points="576,230 596,252 632,206" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>State grant reports</h3><p>Interim and final reports on the 2021 Ministry of Finance forms.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_state">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="56" width="660" height="488" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="126" font-size="32" fill="#0a1524" font-weight="600">Donor reports</text><rect x="110" y="200" width="220" height="280" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><rect x="470" y="200" width="220" height="280" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><rect x="140" y="240" width="150" height="16" fill="#dde2ea" rx="8" /><rect x="500" y="240" width="150" height="16" fill="#b9c3d2" rx="8" /><rect x="140" y="290" width="150" height="16" fill="#dde2ea" rx="8" /><rect x="500" y="290" width="150" height="16" fill="#b9c3d2" rx="8" /><rect x="140" y="340" width="150" height="16" fill="#dde2ea" rx="8" /><rect x="500" y="340" width="150" height="16" fill="#b9c3d2" rx="8" /><polygon points="340,330 430,330 430,310 470,346 430,382 430,362 340,362" fill="#12397a" /></svg></div>
+        <h3>Donor reports</h3><p>Financial report by the donor's budget, ready for the narrative part.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_donor">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">A foundation in Yerevan runs a state grant from a ministry and a donor grant from an international fund. Salaries, rent and a training event are split between the two grants by line. Before the interim report for the ministry, spending by line is already on one page, the documents are attached, and the same records give the donor's financial report a month later.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose a plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>A foundation in Yerevan runs a state grant from a ministry and a donor grant from an international fund. Salaries, rent and a training event are split between the two grants by line. Before the interim report for the ministry, spending by line is already on one page, the documents are attached, and the same records give the donor's financial report a month later.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose a plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">state grant</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">donor grant</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">one page</text><rect x="120" y="300" width="960" height="420" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" fill="#0a1524" font-weight="600">documents</text><line x1="170" y1="410" x2="980" y2="410" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="460" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="260" y="460" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="350" y="460" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="440" y="460" width="64" height="64" fill="#12397a" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="530" y="460" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="2" /><rect x="620" y="460" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="2" /><text x="170" y="620" font-size="32" fill="#566174">a month later</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>Public organisations and foundations in Armenia often live on several grants at once: a state grant under government decision 1937-N, grants from international donors, sometimes money from a community. Each grant has its own budget, its own lines and its own report.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>Public organisations and foundations in Armenia often live on several grants at once: a state grant under government decision 1937-N, grants from international donors, sometimes money from a community. Each grant has its own budget, its own lines and its own report.</p>
     <p>General bookkeeping does not show this. The accounting program sees salaries, rent and services, but not which grant and which budget line each expense belongs to. Before each report someone rebuilds the split by hand in a spreadsheet.</p>
     <p>Since September 2021 state grants go through ARMEPS and PPCM: the contract is registered there, and interim and final reports are accepted on standard forms approved by the Minister of Finance. Many organisations say the platform is complicated and built for tenders.</p>
     <p>The service keeps every grant on its own budget. When a grant starts, its budget lines, amounts and dates are entered once. Every expense is then recorded against a grant and a line, with the invoice, contract and payment attached.</p>
@@ -117,31 +151,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Your general bookkeeping stays where it is. The service does not replace the accountant or the accounting program; it adds the grant view that donors and the ministry ask for.</p>
     <p>Getting started takes an hour: add your grants and their budget lines, and record expenses from this month. Earlier expenses can be added from a spreadsheet.</p>
     <p>The service is meant for public organisations and foundations in Armenia. It is in preparation: we first check whether organisations need it. Reports, submissions and accounting remain the responsibility of the organisation.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Who is the service for?</h3>
-    <p>For public organisations (ՀԿ) and foundations in Armenia with state or donor grants.</p>
-    <h3>Does it replace our accountant?</h3>
-    <p>No. General bookkeeping stays as it is; the service adds accounting by grant and budget line.</p>
-    <h3>Does it prepare state grant reports?</h3>
-    <p>Yes, on the 2021 Ministry of Finance forms. You upload them to PPCM yourself.</p>
-    <h3>Does it work for donor grants?</h3>
-    <p>Yes, the financial report follows the donor's budget and currency.</p>
-    <h3>Can we use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether organisations need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Who is the service for?</h3><p>For public organisations (ՀԿ) and foundations in Armenia with state or donor grants.</p></div>
+      <div class="split flip"><h3>Does it replace our accountant?</h3><p>No. General bookkeeping stays as it is; the service adds accounting by grant and budget line.</p></div>
+      <div class="split flip"><h3>Does it prepare state grant reports?</h3><p>Yes, on the 2021 Ministry of Finance forms. You upload them to PPCM yourself.</p></div>
+      <div class="split flip"><h3>Does it work for donor grants?</h3><p>Yes, the financial report follows the donor's budget and currency.</p></div>
+      <div class="split flip"><h3>Can we use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether organisations need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Register your organisation</h2>
-    <p><label>Grants per year<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>1</option><option>2–3</option><option>4–10</option><option>More than 10</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Register your organisation</h2>
+    </div>
+    <div class="tile stack">
+      <label>Grants per year<select data-ev-focus="form_start"><option value="">— please choose —</option><option>1</option><option>2–3</option><option>4–10</option><option>More than 10</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Grant Ledger Armenia</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Grant accounting for your organisation. Reports, submissions and accounting remain the responsibility of the organisation.</p>
+  <p>Grant accounting for your organisation. Reports, submissions and accounting remain the responsibility of the organisation.</p>
 </div></footer>
 
 </body>
